@@ -1,0 +1,14 @@
+require_relative "statistics.rb"
+class StatisticsFactory
+  def get_statistics
+
+  end
+end
+
+class SalesStatisticsFactory < StatisticsFactory
+  def get_statistics
+    # Un-commenting this line of code would result into an error as SalesStatistics is a singleton.
+    #SalesStatistics.new
+    SalesStatistics.instance
+  end
+end
