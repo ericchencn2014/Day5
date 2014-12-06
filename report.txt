@@ -1,0 +1,17 @@
+the pattern I apply in this programme is:
+adaptor, factory, Composite, Decorator and Singleton
+
+adaptor: there are two different class : Show and factory, I cannot work between this two class because of incompatible interfaces. so I need convert the interface of a class into another 
+
+factory: there are so many kinds of products, wood window, metal door and so on. For these products, factory pattern is suitable
+
+composite: the requirement of title
+
+Decorator: door with border or/and tatoo, window with border or/and tatoo. It is a behavior to be added to an individual object
+
+Singleton:restricts the instantiation of a class to one object
+
+
+
+
+
